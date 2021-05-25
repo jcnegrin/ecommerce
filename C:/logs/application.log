@@ -1,0 +1,16 @@
+2021-05-25T23:32:40.385+0200 INFO [CREATE USER] Account creation request with user test received
+2021-05-25T23:32:40.390+0200 INFO [CREATE USER] user test creation successfully
+2021-05-25T23:32:47.583+0200 INFO [ORDER HISTORY] Order history request from user negrin received
+2021-05-25T23:32:47.588+0200 INFO [ORDER HISTORY] Request from user negrin success
+2021-05-25T23:32:47.603+0200 INFO [SUBMIT ORDER] Submit order request receive from user negrin
+2021-05-25T23:32:47.604+0200 INFO [SUBMIT ORDER] submit request from user negrin success
+2021-05-25T23:32:47.610+0200 INFO [SUBMIT ORDER] Submit order request receive from user invalid username
+2021-05-25T23:32:47.611+0200 ERROR [SUBMIT ORDER] user invalid username not found
+2021-05-25T23:32:52.887+0200 INFO [REMOVE FROM CART] Remove request receive from user negrin
+2021-05-25T23:32:52.892+0200 INFO [REMOVE FROM CART] item 1 deleted from user negrin cart
+2021-05-25T23:32:52.906+0200 INFO [ADD TO CART] Add request receive from user negrin
+2021-05-25T23:32:52.907+0200 INFO [ADD TO CART] item 1 added to user negrin cart
+2021-05-25T23:32:52.909+0200 INFO [REMOVE FROM CART] Remove request receive from user invalidUser
+2021-05-25T23:32:52.910+0200 ERROR [REMOVE FROM CART] user invalidUser not found
+2021-05-25T23:32:52.910+0200 INFO [ADD TO CART] Add request receive from user invalidUser
+2021-05-25T23:32:52.910+0200 ERROR [ADD TO CART] user invalidUser not found
